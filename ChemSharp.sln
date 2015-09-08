@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemSharp", "ChemSharp\ChemSharp.csproj", "{BFC36DFC-719C-495A-8449-D8FC04FE6C00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChemSharp.Tests", "ChemSharp.Tests\ChemSharp.Tests.csproj", "{8DA8AB38-C1EB-4E55-B43F-7D5F05F656E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFC36DFC-719C-495A-8449-D8FC04FE6C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC36DFC-719C-495A-8449-D8FC04FE6C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC36DFC-719C-495A-8449-D8FC04FE6C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC36DFC-719C-495A-8449-D8FC04FE6C00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA8AB38-C1EB-4E55-B43F-7D5F05F656E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA8AB38-C1EB-4E55-B43F-7D5F05F656E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA8AB38-C1EB-4E55-B43F-7D5F05F656E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA8AB38-C1EB-4E55-B43F-7D5F05F656E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
