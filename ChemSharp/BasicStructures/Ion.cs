@@ -22,7 +22,8 @@ namespace ChemSharp.BasicStructures
         public Cation(string element, int charge)
             : base(element, charge)
         {
-
+            if (charge <= 0)
+                throw new ArgumentException();
         }
     }
 
@@ -31,7 +32,8 @@ namespace ChemSharp.BasicStructures
         public Anion(string element, int charge)
             : base(element, charge)
         {
-
+            if (charge <= 0)
+                throw new ArgumentException();
         }
     }
 }
